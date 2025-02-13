@@ -1,20 +1,22 @@
 {
-    "name": "ejercicio-mongo-solucion",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "dev": "nodemon index.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "dotenv": "^16.4.1",
-        "express": "^4.18.2",
-        "mongoose": "^8.1.1",
-        "swagger-ui-express": "^5.0.0"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.3"
-    }
+  "name": "challengeu1s15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "mongoose": "8.10.0",
+    "swagger-ui-express": "5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9"
+  }
 }
